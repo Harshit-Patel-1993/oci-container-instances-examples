@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Go build and test artifacts
+*.test
+coverage.out
+.coverprofile
+
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+tfplan
+
+# Terraform lock file
+# Keep this tracked if you want provider versions pinned; remove this line if so.
+# .terraform.lock.hcl
+
+# Local scratch files
+.DS_Store
